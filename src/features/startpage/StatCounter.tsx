@@ -37,7 +37,7 @@ export function StatCounter({className, countEnd, info, isCounting}: StatCounter
 		<Paper withBorder p={'lg'} radius={'md'} className={className}>
 			<Box className={classes.paper}>
 				<Center className={classes.counterWrapper}>
-					<CountUp isCounting={isCounting} end={countEnd}/>
+					<CountUp isCounting={isCounting} end={countEnd} duration={10}/>
 				</Center>
 			</Box>
 			<Text color={'muted'} mt={'sm'} align={'center'} style={{fontSize: 20}}>{info}</Text>
