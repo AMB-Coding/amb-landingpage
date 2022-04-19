@@ -10,7 +10,6 @@ import {
 	Title,
 	useMantineColorScheme,
 } from "@mantine/core";
-import {Link} from "react-router-dom";
 import {useScrollIntoView} from "@mantine/hooks";
 import {PlayerRecommends} from "./PlayerRecommends";
 import {KnownFromLinkCard} from "./KnownFromLinkCard";
@@ -100,7 +99,8 @@ export function StartPage(): JSX.Element {
 					</Text>
 
 					<Center>
-						<Button variant="gradient" size="xl" radius="xl" mt={'xl'} component={Link} to="/events">
+						<Button<'a'> variant="gradient" size="xl" radius="xl" mt={'xl'} component={'a'}
+									 href="https://armamachtbock.de/events">
 							Events
 						</Button>
 					</Center>
