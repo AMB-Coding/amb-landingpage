@@ -1,8 +1,7 @@
 import {ColorScheme, ColorSchemeProvider, Global, MantineProvider, Skeleton} from '@mantine/core';
 import {Suspense, useState} from 'react';
-import {Router} from "./routes/Router";
-import {HashRouter} from "react-router-dom";
 import {theme} from "./contexts/Theme";
+import {StartPage} from './features/startpage/StartPage';
 
 export function App(): JSX.Element {
 	const [colorScheme, setColorScheme] = useState<ColorScheme>('dark');
@@ -36,9 +35,7 @@ export function App(): JSX.Element {
 							},
 						},
 					})}/>
-					<HashRouter>
-						<Router/>
-					</HashRouter>
+					<StartPage/>
 				</MantineProvider>
 			</ColorSchemeProvider>
 		</Suspense>
