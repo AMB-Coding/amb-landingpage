@@ -88,6 +88,7 @@ const useStyles = createStyles((theme) => ({
 		top: '50%',
 		right: 0,
 		cursor: 'pointer',
+		zIndex: 1,
 
 		[theme.fn.smallerThan('lg')]: {
 			fontSize: theme.fontSizes.lg,
