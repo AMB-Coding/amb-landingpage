@@ -8,10 +8,10 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "@mantine/core": "^4.1.5",
-    "@mantine/hooks": "^4.1.5",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "@mantine/core": "^4.2.2",
+    "@mantine/hooks": "^4.2.2",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "use-count-up": "^3.0.1"
   },
@@ -24,11 +24,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "@types/node": "^16.11.28",
-    "@types/react": "^18.0.7",
-    "@types/react-dom": "^18.0.2",
+    "@types/node": "^16.11.32",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
     "gh-pages": "^3.2.3",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.4"
   },
   "browserslist": {
     "production": [
