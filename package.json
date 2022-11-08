@@ -1,5 +1,5 @@
 {
-  "name": "slotbot-frontend",
+  "name": "amb-landingpage",
   "version": "0.1.0",
   "homepage": "https://amb-coding.github.io/amb-landingpage",
   "private": true,
@@ -17,18 +17,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
-    "gh-pages": "^4.0.0",
     "typescript": "^4.8.4",
-    "vite": "^3.2.3"
+    "vite": "^3.2.3",
+    "vite-plugin-gh-pages": "^0.4.1"
   },
   "browserslist": {
     "production": [
