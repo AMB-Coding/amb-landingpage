@@ -13,11 +13,6 @@ const useStyles = createStyles((theme) => ({
 		justifyContent: 'space-between',
 	},
 
-	logo: {
-		height: 27.9,
-		width: 27.9,
-	},
-
 	title: {
 		textTransform: 'uppercase',
 		fontWeight: 700,
@@ -96,7 +91,7 @@ export function PageFooter(props: FooterProps): JSX.Element {
 			<Stack>
 				<Group spacing={'xs'}>
 					<MediaQuery smallerThan={'xs'} styles={{display: 'none'}}>
-						<Image className={classes.logo} src={logo}/>
+						<Image height={27.9} width={27.9} src={logo}/>
 					</MediaQuery>
 					<Text size={'lg'} className={classes.title}>Arma macht Bock</Text>
 					<ThemeSwitch/>

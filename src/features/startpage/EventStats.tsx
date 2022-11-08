@@ -6,14 +6,14 @@ type EventStatsProps = {};
 
 export function EventStats(props: EventStatsProps): JSX.Element {
 	const {} = props;
-	const [ref, observer] = useIntersection();
+	const {ref, entry} = useIntersection();
 
 	return (
 		<Group grow mt={'xl'} ref={ref}>
 			<StatCounter countEnd={198} info={"Events in den letzten 365 Tagen"}
-						 isCounting={observer?.isIntersecting}/>
+						 isCounting={entry?.isIntersecting}/>
 			<StatCounter countEnd={2059} info={"Belegte Slots in den letzten 365 Tagen"}
-						 isCounting={observer?.isIntersecting}/>
+						 isCounting={entry?.isIntersecting}/>
 		</Group>
 	);
 }
