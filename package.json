@@ -1,7 +1,7 @@
 {
   "name": "amb-landingpage",
   "version": "0.1.0",
-  "homepage": "https://amb-coding.github.io/amb-landingpage",
+  "homepage": "https://github.com/AMB-Coding/amb-landingpage",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
