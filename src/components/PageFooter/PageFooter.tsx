@@ -51,16 +51,13 @@ const useStyles = createStyles((theme) => ({
 	},
 }));
 
-type FooterProps = {};
-
 type IconType = {
 	icon: IconDefinition;
 	href: string;
 	iconClass: string;
 }
 
-export function PageFooter(props: FooterProps): JSX.Element {
-	const {} = props;
+export function PageFooter(): JSX.Element {
 	const {classes, cx} = useStyles();
 
 	const icons: Array<IconType> = [

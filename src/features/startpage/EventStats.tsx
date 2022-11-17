@@ -2,10 +2,7 @@ import {StatCounter} from './StatCounter';
 import {Group} from '@mantine/core';
 import {useIntersection} from '@mantine/hooks';
 
-type EventStatsProps = {};
-
-export function EventStats(props: EventStatsProps): JSX.Element {
-	const {} = props;
+export function EventStats(): JSX.Element {
 	const {ref, entry} = useIntersection();
 
 	return (

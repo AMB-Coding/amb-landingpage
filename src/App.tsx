@@ -1,4 +1,4 @@
-import {ColorScheme, ColorSchemeProvider, Global, MantineProvider, Skeleton} from '@mantine/core';
+import {ColorScheme, ColorSchemeProvider, MantineProvider, Skeleton} from '@mantine/core';
 import {Suspense, useState} from 'react';
 import {theme} from "./contexts/Theme";
 import {StartPage} from './features/startpage/StartPage';

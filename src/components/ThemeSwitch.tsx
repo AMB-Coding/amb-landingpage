@@ -2,10 +2,7 @@ import {ActionIcon, useMantineColorScheme} from "@mantine/core";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMoon, faSun} from "@fortawesome/free-solid-svg-icons";
 
-type ThemeTogglerProps = {};
-
-export function ThemeSwitch(props: ThemeTogglerProps): JSX.Element {
-	const {} = props;
+export function ThemeSwitch(): JSX.Element {
 	const {colorScheme, toggleColorScheme} = useMantineColorScheme();
 	const dark = colorScheme === 'dark';
 
