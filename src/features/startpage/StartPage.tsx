@@ -100,7 +100,7 @@ export function StartPage(): JSX.Element {
 
 					<Center>
 						<Button<'a'> variant="gradient" size="xl" radius="xl" mt={'xl'} component={'a'}
-									 href="https://armamachtbock.de/events">
+									 href="https://events.armamachtbock.de/events">
 							Events
 						</Button>
 					</Center>
