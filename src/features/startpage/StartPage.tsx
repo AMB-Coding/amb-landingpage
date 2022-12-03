@@ -121,7 +121,7 @@ export function StartPage(): JSX.Element {
 										   image={daaLogo}
 										   title={"Deutsche Arma Allianz"}
 										   description={"Größte Zusammenschluss deutschsprachiger Arma 3 Gruppen"}/>
-						<KnownFromLinkCard link={"https://forum.nato-taskforce.com"}
+						<KnownFromLinkCard link={"https://www.nato-taskforce.com"}
 										   image={ntfLogo}
 										   title={"Nato Task Force"} description={"Partnerclan"}/>
 					</Group>
