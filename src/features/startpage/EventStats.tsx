@@ -7,9 +7,9 @@ export function EventStats(): JSX.Element {
 
 	return (
 		<Group grow mt={'xl'} ref={ref}>
-			<StatCounter countEnd={144} info={"Events in den letzten 365 Tagen"}
+			<StatCounter countEnd={117} info={"Events in den letzten 365 Tagen"}
 						 isCounting={entry?.isIntersecting}/>
-			<StatCounter countEnd={1740} info={"Belegte Slots in den letzten 365 Tagen"}
+			<StatCounter countEnd={1461} info={"Belegte Slots in den letzten 365 Tagen"}
 						 isCounting={entry?.isIntersecting}/>
 		</Group>
 	);
