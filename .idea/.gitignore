@@ -5,6 +5,11 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
+# Additional IntelliJ stuff
+dictionaries/
+fileTemplates/
+file.template.settings.xml
+
 #Sonarlint
 sonarlint-state.xml
 sonarlint/
