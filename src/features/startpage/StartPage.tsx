@@ -86,7 +86,7 @@ export function StartPage(): JSX.Element {
 			</Section>
 
 			<Section boxRef={eventsRef} backgroundImage={eventsBackground}>
-				<StartPageImageOverlay opacity={dark ? 1 : .75}/>
+				<StartPageImageOverlay opacity={dark ? undefined : .75}/>
 				<Container style={{zIndex: 1, position: "relative"}}>
 					<Title order={3} className={classes.subHeading}>Wann gehts los?</Title>
 					<Text size={'lg'} mb={'lg'} className={classes.textWithBackgroundImage}>

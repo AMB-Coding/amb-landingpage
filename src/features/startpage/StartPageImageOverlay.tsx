@@ -12,7 +12,7 @@ export function StartPageImageOverlay(props: StartPageImagesOverlayProps): JSX.E
 	return (
 		<Overlay
 			gradient={`linear-gradient(180deg, rgba(0, 0, 0, ${startingAlpha}) 0%, rgba(0, 0, 0, .65) 40%)`}
-			opacity={opacity}
+			style={{opacity: opacity}}
 			zIndex={0}
 		/>
 	);

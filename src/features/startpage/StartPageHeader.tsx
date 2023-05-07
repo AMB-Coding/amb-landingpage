@@ -14,12 +14,12 @@ const useStyles = createStyles((theme) => ({
 		flexDirection: 'column',
 		justifyContent: 'center',
 		alignItems: 'flex-start',
-		paddingBottom: theme.spacing.xl * 6,
+		paddingBottom: `calc(${theme.spacing.xl} * 6)`,
 		zIndex: 1,
 		position: 'relative',
 
 		[theme.fn.smallerThan('sm')]: {
-			paddingBottom: theme.spacing.xl * 3,
+			paddingBottom: `calc(${theme.spacing.xl} * 3)`,
 		},
 	},
 

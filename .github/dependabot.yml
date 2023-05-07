@@ -9,14 +9,14 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     ignore:
       - dependency-name: "@mantine/*"
       - dependency-name: "@types/node"
-        versions: ["17.x", "19.x"]
+        versions: ["19.x", "20.x"]
 
-  # Enable version updates for Github Actions
+  # Enable version updates for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"

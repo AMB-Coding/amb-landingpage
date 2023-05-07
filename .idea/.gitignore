@@ -8,6 +8,7 @@
 #Sonarlint
 sonarlint-state.xml
 sonarlint/
+sonarlint.xml
 
 #Discord Integration
 discord.xml

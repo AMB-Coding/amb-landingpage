@@ -1,7 +1,7 @@
-import {Card, createStyles, Text} from "@mantine/core";
+import {Card, createStyles, getStylesRef, Text} from "@mantine/core";
 
-const useStyles = createStyles((theme, _params, getRef) => {
-	const image = getRef('image');
+const useStyles = createStyles((theme, _params) => {
+	const image = getStylesRef('image');
 
 	return {
 		card: {
