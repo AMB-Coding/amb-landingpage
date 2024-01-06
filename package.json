@@ -1,15 +1,20 @@
 {
   "name": "amb-landingpage",
   "version": "1.1.2",
-  "homepage": "https://github.com/AMB-Coding/amb-landingpage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMB-Coding/amb-landingpage.git"
+  },
+  "homepage": "https://armamachtbock.de",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mantine/core": "^6.0.10",
-    "@mantine/hooks": "^6.0.10",
+    "@mantine/core": "^6.0.21",
+    "@mantine/hooks": "^6.0.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "use-count-up": "^3.0.1"
@@ -20,12 +25,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@types/node": "^18.16.5",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
-    "@vitejs/plugin-react": "^4.0.0",
-    "typescript": "^5.0.4",
-    "vite": "^4.3.5"
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "browserslist-to-esbuild": "^2.1.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
   },
   "browserslist": {
     "production": [

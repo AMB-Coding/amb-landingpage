@@ -93,7 +93,7 @@ export function PageFooter(): JSX.Element {
 					<Text size={'lg'} className={classes.title}>Arma macht Bock</Text>
 					<ThemeSwitch/>
 				</Group>
-				<Text size={'sm'} className={classes.description}>© 2023 Alf. All rights reserved.</Text>
+				<Text size={'sm'} className={classes.description}>© 2024 Alf. All rights reserved.</Text>
 			</Stack>
 			<Stack spacing={'xs'}>
 				<Group spacing={'xl'} position={'right'}>
