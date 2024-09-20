@@ -9,12 +9,12 @@ import {
 	Text,
 	Title,
 	useMantineColorScheme,
-} from "@mantine/core";
-import {useScrollIntoView} from "@mantine/hooks";
-import {PlayerRecommends} from "./PlayerRecommends";
-import {KnownFromLinkCard} from "./KnownFromLinkCard";
-import {BeforeStartChecklist} from "./BeforeStartChecklist";
-import {DiscordInviteBox} from "../../components/DiscordInvite/DiscordInviteBox";
+} from '@mantine/core';
+import {useScrollIntoView} from '@mantine/hooks';
+import {PlayerRecommends} from './PlayerRecommends';
+import {KnownFromLinkCard} from './KnownFromLinkCard';
+import {BeforeStartChecklist} from './BeforeStartChecklist';
+import {DiscordInviteBox} from '../../components/DiscordInvite/DiscordInviteBox';
 import {PageFooter} from '../../components/PageFooter/PageFooter';
 import {Section} from './Section';
 import {StartPageHeader} from './StartPageHeader';
@@ -25,7 +25,6 @@ import daaLogo from './images/280-280_DAA_trans.png';
 import ntfLogo from './images/260-320_NTF_trans.png';
 import discordBackgroundDark from './images/discordBackgroundDark.jpg';
 import discordBackgroundLight from './images/discordBackgroundLight.jpg';
-import {EventStats} from './EventStats';
 
 export function StartPage(): JSX.Element {
 	const {colorScheme} = useMantineColorScheme();
@@ -128,7 +127,7 @@ export function StartPage(): JSX.Element {
 
 					<Divider/>
 
-					<EventStats/>
+					{/*#Sommerpause <EventStats/>*/}
 				</Container>
 			</Section>
 
